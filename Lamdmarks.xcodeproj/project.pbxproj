@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06F17D742A6E5D0700C16F10 /* LamdmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F17D732A6E5D0700C16F10 /* LamdmarksApp.swift */; };
+		06F17D762A6E5D0700C16F10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F17D752A6E5D0700C16F10 /* ContentView.swift */; };
+		06F17D782A6E5D0B00C16F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F17D772A6E5D0B00C16F10 /* Assets.xcassets */; };
+		06F17D7B2A6E5D0B00C16F10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F17D7A2A6E5D0B00C16F10 /* Preview Assets.xcassets */; };
+		06F17D7D2A6E5D0C00C16F10 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F17D7C2A6E5D0C00C16F10 /* Persistence.swift */; };
+		06F17D802A6E5D0C00C16F10 /* Lamdmarks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06F17D7E2A6E5D0C00C16F10 /* Lamdmarks.xcdatamodeld */; };
+		06F17D8A2A6E5D0D00C16F10 /* LamdmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F17D892A6E5D0D00C16F10 /* LamdmarksTests.swift */; };
+		06F17D942A6E5D0D00C16F10 /* LamdmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F17D932A6E5D0D00C16F10 /* LamdmarksUITests.swift */; };
+		06F17D962A6E5D0D00C16F10 /* LamdmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F17D952A6E5D0D00C16F10 /* LamdmarksUITestsLaunchTests.swift */; };
+		06F17DA32A6E5F6700C16F10 /* turtlerock@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06F17DA22A6E5F6600C16F10 /* turtlerock@2x.jpg */; };
+		06F17DA52A6E5FC600C16F10 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F17DA42A6E5FC600C16F10 /* CircleImage.swift */; };
+		06F17DA72A6E617400C16F10 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F17DA62A6E617400C16F10 /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06F17D862A6E5D0D00C16F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06F17D682A6E5D0700C16F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F17D6F2A6E5D0700C16F10;
+			remoteInfo = Lamdmarks;
+		};
+		06F17D902A6E5D0D00C16F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06F17D682A6E5D0700C16F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F17D6F2A6E5D0700C16F10;
+			remoteInfo = Lamdmarks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F17D702A6E5D0700C16F10 /* Lamdmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lamdmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F17D732A6E5D0700C16F10 /* LamdmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamdmarksApp.swift; sourceTree = "<group>"; };
+		06F17D752A6E5D0700C16F10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		06F17D772A6E5D0B00C16F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06F17D7A2A6E5D0B00C16F10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06F17D7C2A6E5D0C00C16F10 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		06F17D7F2A6E5D0C00C16F10 /* Lamdmarks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lamdmarks.xcdatamodel; sourceTree = "<group>"; };
+		06F17D852A6E5D0D00C16F10 /* LamdmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LamdmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F17D892A6E5D0D00C16F10 /* LamdmarksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamdmarksTests.swift; sourceTree = "<group>"; };
+		06F17D8F2A6E5D0D00C16F10 /* LamdmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LamdmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F17D932A6E5D0D00C16F10 /* LamdmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamdmarksUITests.swift; sourceTree = "<group>"; };
+		06F17D952A6E5D0D00C16F10 /* LamdmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamdmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06F17DA22A6E5F6600C16F10 /* turtlerock@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "turtlerock@2x.jpg"; sourceTree = "<group>"; };
+		06F17DA42A6E5FC600C16F10 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		06F17DA62A6E617400C16F10 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06F17D6D2A6E5D0700C16F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F17D822A6E5D0D00C16F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F17D8C2A6E5D0D00C16F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06F17D672A6E5D0700C16F10 = {
+			isa = PBXGroup;
+			children = (
+				06F17D722A6E5D0700C16F10 /* Lamdmarks */,
+				06F17D882A6E5D0D00C16F10 /* LamdmarksTests */,
+				06F17D922A6E5D0D00C16F10 /* LamdmarksUITests */,
+				06F17D712A6E5D0700C16F10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06F17D712A6E5D0700C16F10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06F17D702A6E5D0700C16F10 /* Lamdmarks.app */,
+				06F17D852A6E5D0D00C16F10 /* LamdmarksTests.xctest */,
+				06F17D8F2A6E5D0D00C16F10 /* LamdmarksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06F17D722A6E5D0700C16F10 /* Lamdmarks */ = {
+			isa = PBXGroup;
+			children = (
+				06F17D732A6E5D0700C16F10 /* LamdmarksApp.swift */,
+				06F17D752A6E5D0700C16F10 /* ContentView.swift */,
+				06F17D772A6E5D0B00C16F10 /* Assets.xcassets */,
+				06F17DA22A6E5F6600C16F10 /* turtlerock@2x.jpg */,
+				06F17D7C2A6E5D0C00C16F10 /* Persistence.swift */,
+				06F17D7E2A6E5D0C00C16F10 /* Lamdmarks.xcdatamodeld */,
+				06F17D792A6E5D0B00C16F10 /* Preview Content */,
+				06F17DA42A6E5FC600C16F10 /* CircleImage.swift */,
+				06F17DA62A6E617400C16F10 /* MapView.swift */,
+			);
+			path = Lamdmarks;
+			sourceTree = "<group>";
+		};
+		06F17D792A6E5D0B00C16F10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				06F17D7A2A6E5D0B00C16F10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06F17D882A6E5D0D00C16F10 /* LamdmarksTests */ = {
+			isa = PBXGroup;
+			children = (
+				06F17D892A6E5D0D00C16F10 /* LamdmarksTests.swift */,
+			);
+			path = LamdmarksTests;
+			sourceTree = "<group>";
+		};
+		06F17D922A6E5D0D00C16F10 /* LamdmarksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06F17D932A6E5D0D00C16F10 /* LamdmarksUITests.swift */,
+				06F17D952A6E5D0D00C16F10 /* LamdmarksUITestsLaunchTests.swift */,
+			);
+			path = LamdmarksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06F17D6F2A6E5D0700C16F10 /* Lamdmarks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F17D992A6E5D0D00C16F10 /* Build configuration list for PBXNativeTarget "Lamdmarks" */;
+			buildPhases = (
+				06F17D6C2A6E5D0700C16F10 /* Sources */,
+				06F17D6D2A6E5D0700C16F10 /* Frameworks */,
+				06F17D6E2A6E5D0700C16F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lamdmarks;
+			productName = Lamdmarks;
+			productReference = 06F17D702A6E5D0700C16F10 /* Lamdmarks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06F17D842A6E5D0D00C16F10 /* LamdmarksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F17D9C2A6E5D0D00C16F10 /* Build configuration list for PBXNativeTarget "LamdmarksTests" */;
+			buildPhases = (
+				06F17D812A6E5D0D00C16F10 /* Sources */,
+				06F17D822A6E5D0D00C16F10 /* Frameworks */,
+				06F17D832A6E5D0D00C16F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06F17D872A6E5D0D00C16F10 /* PBXTargetDependency */,
+			);
+			name = LamdmarksTests;
+			productName = LamdmarksTests;
+			productReference = 06F17D852A6E5D0D00C16F10 /* LamdmarksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06F17D8E2A6E5D0D00C16F10 /* LamdmarksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F17D9F2A6E5D0D00C16F10 /* Build configuration list for PBXNativeTarget "LamdmarksUITests" */;
+			buildPhases = (
+				06F17D8B2A6E5D0D00C16F10 /* Sources */,
+				06F17D8C2A6E5D0D00C16F10 /* Frameworks */,
+				06F17D8D2A6E5D0D00C16F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06F17D912A6E5D0D00C16F10 /* PBXTargetDependency */,
+			);
+			name = LamdmarksUITests;
+			productName = LamdmarksUITests;
+			productReference = 06F17D8F2A6E5D0D00C16F10 /* LamdmarksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06F17D682A6E5D0700C16F10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					06F17D6F2A6E5D0700C16F10 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					06F17D842A6E5D0D00C16F10 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 06F17D6F2A6E5D0700C16F10;
+					};
+					06F17D8E2A6E5D0D00C16F10 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 06F17D6F2A6E5D0700C16F10;
+					};
+				};
+			};
+			buildConfigurationList = 06F17D6B2A6E5D0700C16F10 /* Build configuration list for PBXProject "Lamdmarks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06F17D672A6E5D0700C16F10;
+			productRefGroup = 06F17D712A6E5D0700C16F10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06F17D6F2A6E5D0700C16F10 /* Lamdmarks */,
+				06F17D842A6E5D0D00C16F10 /* LamdmarksTests */,
+				06F17D8E2A6E5D0D00C16F10 /* LamdmarksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06F17D6E2A6E5D0700C16F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F17DA32A6E5F6700C16F10 /* turtlerock@2x.jpg in Resources */,
+				06F17D7B2A6E5D0B00C16F10 /* Preview Assets.xcassets in Resources */,
+				06F17D782A6E5D0B00C16F10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F17D832A6E5D0D00C16F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F17D8D2A6E5D0D00C16F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06F17D6C2A6E5D0700C16F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F17D7D2A6E5D0C00C16F10 /* Persistence.swift in Sources */,
+				06F17DA72A6E617400C16F10 /* MapView.swift in Sources */,
+				06F17D762A6E5D0700C16F10 /* ContentView.swift in Sources */,
+				06F17D802A6E5D0C00C16F10 /* Lamdmarks.xcdatamodeld in Sources */,
+				06F17D742A6E5D0700C16F10 /* LamdmarksApp.swift in Sources */,
+				06F17DA52A6E5FC600C16F10 /* CircleImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F17D812A6E5D0D00C16F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F17D8A2A6E5D0D00C16F10 /* LamdmarksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F17D8B2A6E5D0D00C16F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F17D942A6E5D0D00C16F10 /* LamdmarksUITests.swift in Sources */,
+				06F17D962A6E5D0D00C16F10 /* LamdmarksUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06F17D872A6E5D0D00C16F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06F17D6F2A6E5D0700C16F10 /* Lamdmarks */;
+			targetProxy = 06F17D862A6E5D0D00C16F10 /* PBXContainerItemProxy */;
+		};
+		06F17D912A6E5D0D00C16F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06F17D6F2A6E5D0700C16F10 /* Lamdmarks */;
+			targetProxy = 06F17D902A6E5D0D00C16F10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06F17D972A6E5D0D00C16F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06F17D982A6E5D0D00C16F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06F17D9A2A6E5D0D00C16F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lamdmarks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.toda.Lamdmarks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06F17D9B2A6E5D0D00C16F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lamdmarks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.toda.Lamdmarks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06F17D9D2A6E5D0D00C16F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.toda.LamdmarksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lamdmarks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lamdmarks";
+			};
+			name = Debug;
+		};
+		06F17D9E2A6E5D0D00C16F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.toda.LamdmarksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lamdmarks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lamdmarks";
+			};
+			name = Release;
+		};
+		06F17DA02A6E5D0D00C16F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.toda.LamdmarksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lamdmarks;
+			};
+			name = Debug;
+		};
+		06F17DA12A6E5D0D00C16F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.toda.LamdmarksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lamdmarks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06F17D6B2A6E5D0700C16F10 /* Build configuration list for PBXProject "Lamdmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F17D972A6E5D0D00C16F10 /* Debug */,
+				06F17D982A6E5D0D00C16F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06F17D992A6E5D0D00C16F10 /* Build configuration list for PBXNativeTarget "Lamdmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F17D9A2A6E5D0D00C16F10 /* Debug */,
+				06F17D9B2A6E5D0D00C16F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06F17D9C2A6E5D0D00C16F10 /* Build configuration list for PBXNativeTarget "LamdmarksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F17D9D2A6E5D0D00C16F10 /* Debug */,
+				06F17D9E2A6E5D0D00C16F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06F17D9F2A6E5D0D00C16F10 /* Build configuration list for PBXNativeTarget "LamdmarksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F17DA02A6E5D0D00C16F10 /* Debug */,
+				06F17DA12A6E5D0D00C16F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		06F17D7E2A6E5D0C00C16F10 /* Lamdmarks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				06F17D7F2A6E5D0C00C16F10 /* Lamdmarks.xcdatamodel */,
+			);
+			currentVersion = 06F17D7F2A6E5D0C00C16F10 /* Lamdmarks.xcdatamodel */;
+			path = Lamdmarks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 06F17D682A6E5D0700C16F10 /* Project object */;
+}
