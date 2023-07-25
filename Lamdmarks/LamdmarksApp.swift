@@ -15,6 +15,7 @@ struct LamdmarksApp: App {
         WindowGroup {
             LandmarkList()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(UserData())
         }
     }
 }
