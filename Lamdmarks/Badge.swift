@@ -2,27 +2,31 @@
 //  Badge.swift
 //  Lamdmarks
 //
-//  Created by icdadmin on 2023/07/26.
+//  Created by icdadmin on 2023/07/28.
 //
 
 import SwiftUI
 
 struct Badge: View {
+    static let rotationCount = 8
+    var badgeSymbols: some View {
+        ForEach(0..<Badge.rotationCount){ i in
+            RotateBadgeSymbol(angle: .init(degrees: Double(i)/Double(Badge.rotationCount))*360)
+                .opacity(0.5)
+        }
+    }
+
     var body: some View {
-        Path {
-            path in
+        ZStack{
+            BadgeBackground()
             
-            path.move(to: CGPoint(x: 100, y: 100))
-            path.addLine(to: CGPoint(x: 200, y: 200))
-            
-            path.move(to: CGPoint(x: 300, y: 100))
-            path.addLine(to: CGPoint(x: 250, y: 200))
-            
-            path.addQuadCurve(
-                to: CGPoint(x: 200, y: 200),
-                control: CGPoint(x: 230, y: 230)
-            )
-        }.stroke()
+            GeometryReader{ geometry in
+                self.badgeSymbols
+                    .scaleEffect(1.0 / 4.0, anchor: .top)
+                    .position(x: geometry.size.width / 2.0, y: (3.0 / 4.0) * geometry.size.height)
+            }
+        }
+        .scaledToFit()
     }
 }
 
