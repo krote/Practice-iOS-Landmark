@@ -11,10 +11,11 @@ import SwiftUI
 import CoreLocation
 
 let landmarkData: [Landmark] = load("landmarkData.json")
-let hikeData: [Landmark] = load("hikeData.json")
+let hikeData: [Hike] = load("hikeData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
+    print(filename)
     
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
     else{
