@@ -13,6 +13,13 @@ import CoreLocation
 let landmarkData: [Landmark] = load("landmarkData.json")
 let hikeData: [Hike] = load("hikeData.json")
 
+var categoriesData: [String: [Landmark]]{
+    Dictionary(
+        grouping: landmarkData,     // landmarkに対して
+        by: { $0.category.rawValue }    // 列挙型（enum）のカテゴリのrawValue（実際の値）を使ってグループ化
+    )
+}
+
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
     print(filename)
