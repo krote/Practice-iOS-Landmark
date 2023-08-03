@@ -13,9 +13,16 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView{
             List {
+                userData.features[0].image
+                    .resizable()
+                    .scaledToFill()
+                    .frame(height: 200)
+                    .clipped()
+                    .listRowInsets(EdgeInsets())
                 ForEach(userData.categories.keys.sorted(), id: \.self) { key in
-                    Text(key)
+                    CategoryRow(categoryName: key, items: userData.categories[key]!)
                 }
+                .listRowInsets(EdgeInsets())
             }
             .navigationTitle("Featured")
         }
