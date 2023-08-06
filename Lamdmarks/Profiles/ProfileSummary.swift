@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ProfileSummary: View {
-//    @EnvironmentObject var userData: UserData
+    @EnvironmentObject var userData: UserData
     var profile: Profile
     var body: some View {
         ScrollView {
@@ -45,7 +45,7 @@ struct ProfileSummary: View {
                     Text("Recent Hikes")
                         .font(.headline)
                     
-//                    HikeView(hike: userData.hikes[0])
+                    HikeView(hike: userData.hikes[0])
                 }
             }
         }
@@ -55,6 +55,6 @@ struct ProfileSummary: View {
 struct ProfileSummary_Previews: PreviewProvider {
     static var previews: some View {
         ProfileSummary(profile: Profile.default)
-//            .environmentObject(UserData())
+            .environmentObject(UserData())
     }
 }
