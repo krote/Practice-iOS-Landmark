@@ -14,5 +14,6 @@ final class UserData: ObservableObject {
     @Published var hikes = hikeData
     @Published var features = featuresData
     @Published var categories = categoriesData
+    @Published var profile = Profile.default
 }
 
