@@ -33,6 +33,13 @@ struct Landmark: Hashable, Codable, Identifiable{
         case rivers = "Rivers"
         case mountains = "Mountains"
     }
+    
+    var image: Image{
+        Image(imageName)
+    }
+    var featureImage: Image?{
+        isFeatured ? Image(imageName + "_feature"): nil
+    }
 }
 
 struct Coordinates: Hashable, Codable{
