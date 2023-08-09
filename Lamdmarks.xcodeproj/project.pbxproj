@@ -58,6 +58,7 @@
 		06F17DA32A6E5F6700C16F10 /* turtlerock@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06F17DA22A6E5F6600C16F10 /* turtlerock@2x.jpg */; };
 		06F17DA52A6E5FC600C16F10 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F17DA42A6E5FC600C16F10 /* CircleImage.swift */; };
 		06F17DA72A6E617400C16F10 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F17DA62A6E617400C16F10 /* MapView.swift */; };
+		F1FCC2992A83620A0047E11F /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FCC2982A83620A0047E11F /* FeatureCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +133,7 @@
 		06F17DA22A6E5F6600C16F10 /* turtlerock@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "turtlerock@2x.jpg"; sourceTree = "<group>"; };
 		06F17DA42A6E5FC600C16F10 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		06F17DA62A6E617400C16F10 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F1FCC2982A83620A0047E11F /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +304,7 @@
 				06F17D7E2A6E5D0C00C16F10 /* Lamdmarks.xcdatamodeld */,
 				06F17D792A6E5D0B00C16F10 /* Preview Content */,
 				061E6B7B2A7B2C5F00A120B2 /* ContentView.swift */,
+				F1FCC2982A83620A0047E11F /* FeatureCard.swift */,
 			);
 			path = Lamdmarks;
 			sourceTree = "<group>";
@@ -494,6 +497,7 @@
 				06F17D7D2A6E5D0C00C16F10 /* Persistence.swift in Sources */,
 				06F17DA72A6E617400C16F10 /* MapView.swift in Sources */,
 				061E6B7A2A7A1ACC00A120B2 /* CategoryItem.swift in Sources */,
+				F1FCC2992A83620A0047E11F /* FeatureCard.swift in Sources */,
 				06F17D762A6E5D0700C16F10 /* LandmarkDetail.swift in Sources */,
 				06F17D802A6E5D0C00C16F10 /* Lamdmarks.xcdatamodeld in Sources */,
 				065784212A700FF400649847 /* UserData.swift in Sources */,
