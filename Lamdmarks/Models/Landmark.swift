@@ -47,8 +47,10 @@ struct Coordinates: Hashable, Codable{
     var longitude: Double
 }
 
-extension Landmark {
-    var image: Image{
-        ImageStore.shared.image(name: imageName)
-    }
-}
+/*
+ extension Landmark {
+ var image: Image{
+ ImageStore.shared.image(name: imageName)
+ }
+ }
+ */

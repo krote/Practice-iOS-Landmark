@@ -19,13 +19,14 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
         let pageViewController = UIPageViewController(
             transitionStyle: .scroll,
             navigationOrientation: .horizontal)
+        pageViewController.dataSource = context.coordinator
         
         return pageViewController
     }
     
-    func updateUIViewController(_ uiViewController: UIPageViewController, context: Context) {
-        PageViewController.setViewControllers(
-            [context.coordinator.controllers[0]], directin: .forward, animeted: true)
+    func updateUIViewController(_ pageViewController: UIPageViewController, context: Context) {
+        pageViewController.setViewControllers(
+            [context.coordinator.controllers[0]], direction: .forward, animated: true)
 //            [UIHostingController(rootView: pages[0])], direction: .forward, animated: true)
     }
     
@@ -40,7 +41,7 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
         
         func pageViewController(
             _ pageViewController: UIPageViewController,
-            viewControllerBefore viewController: UIViewController) => UIViewContoller?
+            viewControllerBefore viewController: UIViewController) -> UIViewController?
         {
             guard let index = controllers.firstIndex(of: viewController) else {
                 return nil
