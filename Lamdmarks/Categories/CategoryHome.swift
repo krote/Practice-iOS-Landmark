@@ -14,11 +14,8 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView{
             List {
-                userData.features[0].image
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 200)
-                    .clipped()
+                PageView(pages: UserData().features.map{FeatureCard(landmark: $0)})
+                    .aspectRatio(3/2, contentMode: .fit)
                     .listRowInsets(EdgeInsets())
                 ForEach(userData.categories.keys.sorted(), id: \.self) { key in
                     CategoryRow(categoryName: key, items: userData.categories[key]!)
